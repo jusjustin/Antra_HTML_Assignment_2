@@ -1,0 +1,30 @@
+.header{
+    background-color: darkblue;
+    padding: 5%;
+}
+.header button{
+    padding: 1%;
+    background: orange;
+    float: right;
+}
+
+.content{
+    position: top;
+    background-color: lightgray;
+    padding: 5% 10% 8% 21%;
+    float: left;
+}
+.content .box{
+    padding: 2%;
+    width: 400px;
+    height: 500px;
+    background: white;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.content button{
+    background: lightskyblue;
+}

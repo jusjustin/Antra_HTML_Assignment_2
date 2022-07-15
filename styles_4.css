@@ -1,0 +1,79 @@
+.body{
+    font-style: Arial;
+}
+.banner-bottom-right{
+    font-size: xx-large;
+    color: white;
+    position: absolute;
+    bottom: 668px;
+    right: 150px;
+}
+.navbar{
+    padding: 1.25%;
+    background-color: lightgrey;
+}
+.navbar button{
+    padding: 1.25%;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+
+.content{
+    background-color: white;
+    padding: 25%;
+    padding-bottom: 30%;
+}
+
+.content .leftboxes{
+    position: relative;
+    right: 400px;
+    bottom: 400px;
+    border: 2px;
+    border-color: lightgray;
+    border-style: solid;
+    /* width: 1000px;
+    height: 400px; */
+    background: white;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.content .righttopbox{
+    position: absolute;
+    right: 200px;
+    top: 600px;
+    border: 2px;
+    border-color: lightgray;
+    border-style: solid;
+    width: 400px;
+    background: lightgray;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.content .rightbottombox{
+    position: absolute;
+    right: 200px;
+    top: 950px;
+    border: 2px;
+    border-color: lightgray;
+    border-style: solid;
+    width: 400px;
+
+    background: white;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.footer{
+    padding: .5%;
+    background: limegreen;
+}

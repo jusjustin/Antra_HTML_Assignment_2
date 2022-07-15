@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- PROBLEM 1 -->
+<style>
+    .header {
+        background: #234465;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .header a {
+        color: white;
+        float: left;
+        padding: 14px 32px;
+        text-decoration: none;
+        font-size: 24px;
+    }
+
+    .dropbtn {
+        background-color: #234465;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        float: left;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+    }
+</style>
+
+<body>
+    <div class="header">
+        <table>
+            <tr>
+                <td>
+                    <a style="float: right;" href="#news"><input type="text" placeholder="Search.."></a>
+                    <a style="float: right;" href="#user">USER</a>
+                    <a style="float: right;" href="#notifications">0🔔</a>
+                    <img src="https://antra.com/wp-content/uploads/2021/02/2021-02-18-2.png" alt="Antra Logo"
+                        width="200" height="75">
+            </tr>
+            </td>
+
+            <tr>
+                <td>
+                    <a href="#news">NEWS</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">ABOUT THE UNIVERSITY🔻</button>
+                        <div class="dropdown-content">
+                            <a href="#L1">Link 1</a>
+                            <a href="#L2">Link 2</a>
+                            <a href="#L3">Link 3</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">TRAINING COURSES🔻</button>
+                        <div class="dropdown-content">
+                            <a href="#L1">Link 1</a>
+                            <a href="#L2">Link 2</a>
+                            <a href="#L3">Link 3</a>
+                        </div>
+                    </div>
+                    <a href="#companies">FOR COMPANIES</a>
+                    <a href="#forum">FORUM</a>
+                    <a href="#contacts">CONTACTS</a>
+            </tr>
+            </td>
+        </table>
+    </div>
+<!-- PROBLEM 2 -->
+<style>
+    .footer {
+        background: #262E31;
+        padding: 0px 150px 400px 150px;
+        color: #829399;
+    }   
+     .footer2 {
+        background: #000000;
+        color: rgb(255, 255, 255);
+        padding: 15px;
+        text-indent: 3%;
+    }  
+    .column {
+        align-items: top;
+        float: left;
+        padding-right: 10%;
+
+    }
+</style>
+    <div class="footer">
+        <div class="column">
+            <h3>Corporate Office:</h3>
+            <section>
+                <br>2135 Ridgetop Circle</br>
+                <br>Suite #300</br>
+                <br>Dulles. VA 20166</br>
+                <br>Ph:703 994 4545</br>
+                <br>email: info@antra.net</br>
+            </section>
+        </div>
+        <div class="column">
+            <h3>Services</h3>
+            <section>
+                <br><a href="https://antra.com/">Technology Services</a></br>
+                <hr>
+                <br><a href="https://antra.com/">Business Advisory Services</a></br>
+                <hr>
+                <br><a href="https://antra.com/">Professional Services</a></br>
+                <hr>
+                <br><a href="https://antra.com/">Blog</a></br>
+                <hr>
+                <br><a href="https://antra.com/">About Us</a></br>
+                <hr>
+                <br><a href="https://antra.com/">Contact Us</a></br>
+            </section>
+        </div>
+        <div class="column">
+            <h3>Resources</h3>
+            <section>
+                <br><a href="https://antra.com/">Case Studies</a></br>
+                <hr>
+                <br><a href="https://antra.com/">White Papers</a></br>
+                <hr>
+                <br><a href="https://antra.com/">Technology Resources</a></br>
+                <hr>
+                <br><a href="https://antra.com/">Top Technology Trends 2017</a></br>
+                <hr>
+                <br><a href="https://antra.com/">Agile Transformations</a></br>
+                <hr>
+                <br><a href="https://antra.com/">Web & Mobile Application Development</a></br>
+            </section>
+        </div>
+        <div class="column">
+            <h3>Our Locations</h3>
+            <img src="https://antra.com/wp-content/uploads/2022/04/world-map-img-foot-1-300x155.png" alt="Map">
+        </div>
+    </div>
+
+    <div class="footer2">
+        <div>
+            <div>2017 Antra, Inc All Rights Reserved.</div>
+            <div style="float: right; padding-right: 2%;"><a href="https://antra.com/">🔴FB</a><a href="https://antra.com/">🔵TW</a><a href="https://antra.com/">🟢IN</a></div>
+            
+        </div>
+    </div> 
+</body>
+
+</html>
